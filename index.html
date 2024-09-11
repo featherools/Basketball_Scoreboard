@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<title>Scoreboard</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Home Section -->
+			<div id="Home">
+				<div>
+					<h3>HOME</h3>
+				</div>
+				<div>
+					<h3 id="home-score">0</h3>
+				</div>
+				<div>
+					<button id="Home_increment_+1" onclick="add_one()">+ 1</button>
+					<button id="Home_increment_+2" onclick="add_two()">+ 2</button>
+					<button id="Home_increment_+3" onclick="add_three()">+ 3</button>
+				</div>
+			</div>
+
+			<!-- Guest Section -->
+			<div id="Guest">
+				<div>
+					<h3>GUEST</h3>
+				</div>
+				<div>
+					<h3 id="guest-score">0</h3>
+				</div>
+				<div>
+					<button id="Guest_increment_+1" onclick="add_1()">+ 1</button>
+					<button id="Guest_increment_+2" onclick="add_2()">+ 2</button>
+					<button id="Guest_increment_+3" onclick="add_3()">+ 3</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>
